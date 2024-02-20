@@ -4,12 +4,77 @@
  *-------------------------------------
  */
 
-.material-icons.md-18 { font-size: 18px; }
-.material-icons.md-24 { font-size: 24px; }
-.material-icons.md-36 { font-size: 36px; }
-.material-icons.md-48 { font-size: 48px; }
-
 .responsive {
     width: 100%;
     height: auto;
   }
+
+/*
+* --------------------------------------------
+* Custom styles to override the default Bootstrap ones
+* --------------------------------------------
+*/
+
+/* New Color Palette:
+* Lightest (Main Background): #f2fbf2
+* Dark Green (Primary): #005a00
+* Light Green (Secondary): #72b372
+* Reddish-Brown (Accent): #b75858
+*/
+
+/* New Color Palette:
+* Aquamarine (Main Background): #42E2B8
+* Federal Blue (Primary): #07004D
+* Steel Blue (Secondary): #2D82B7
+* Aquamarine Light: #A1F1DC
+* White (Accent): #FFFFFF
+*/
+
+.bg-info {
+  background-color: #2D82B7 !important; /* Light green for secondary backgrounds */
+}
+
+.navbar-light .navbar-brand, .navbar-light .navbar-nav .nav-link {
+  color: #FFFFFF; /* Dark green for brand name & nav links for visibility */
+}
+
+.btn-info {
+  color: #FFFFFF; /* Lightest shade for text on info button for contrast */
+  background-color: #07004D; /* Light green for button background */
+  border-color: #07004D; /* Dark green for button border */
+}
+
+.btn-primary {
+  color: #FFFFFF; /* Lightest shade for text */
+  font-size: 150%;
+  background-color: #07004D; /* Dark green for primary button background */
+}
+
+.btn-secondary {
+  color: #07004D; /* Lightest shade for text */
+  font-size: 150%;
+  background-color: #2D82B7; /* Dark green for primary button background */
+}
+
+body {
+  background-color: #A1F1DC; /* Lightest shade for body background to follow the 60% rule */
+}
+
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.footer {
+  background-color: #2D82B7;
+}
+
+.material-icons {
+  color: #07004D;
+}
+
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
